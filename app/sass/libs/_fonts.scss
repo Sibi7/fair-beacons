@@ -1,6 +1,16 @@
 $gilRoyReg:'Gilroy-Regular';
 $gilRoyMed:'Gilroy-Medium';
 $gilRoyBold:'Gilroy-Bold';
+$myriad:'MyriadProRegular';
+
+@font-face {
+  font-family: 'MyriadProRegular';
+  src: url('../fonts/Myriad/MyriadProRegular.eot') format('embedded-opentype'),
+  url('../fonts/Myriad/MyriadProRegular.woff') format('woff'),
+  url('../fonts/Myriad/MyriadProRegular.ttf') format('truetype'),
+  url('../fonts/Myriad/MyriadProRegular.svg') format('svg');
+  font-weight: normal;
+}
 
 @font-face {
   font-family: 'Gilroy-Regular';
