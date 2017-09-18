@@ -3,14 +3,15 @@
 }
 
 @media only screen and (max-width: 935px) {
-  .header__search {
-    width: calc(100% - 600px);
-    min-width: 200px;
+  .news__wrapper__item{
+    min-width: 40%;
   }
 }
 
 @media only screen and (max-width: 770px) {
-
+  .news__wrapper__item{
+    min-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 736px) {

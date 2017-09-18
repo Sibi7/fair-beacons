@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600');
 $gilRoyReg:'Gilroy-Regular';
 $gilRoyMed:'Gilroy-Medium';
 $gilRoyBold:'Gilroy-Bold';
+$gilRoyEB:'GilroyEBold';
 $myriad:'MyriadProRegular';
+$Qanelas:'Qanelas-blak';
+
+@font-face {
+  font-family: 'Qanelas-blak';
+  src: url('../fonts/Qanelas/QanelasBlack.woff') format('woff');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'GilroyEBold';
+  src: url('../fonts/Gilroy/GilroyExtraBold.woff') format('woff');
+  font-weight: 900;
+}
 
 @font-face {
   font-family: 'MyriadProRegular';

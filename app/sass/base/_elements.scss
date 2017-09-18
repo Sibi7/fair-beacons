@@ -1,6 +1,7 @@
 button{
   transition: 200ms ease;
   cursor: pointer;
+  letter-spacing: 3px;
   &:hover{
     transform: scale(1.05);
     transition: 200ms ease;
