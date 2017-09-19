@@ -63,6 +63,33 @@
       max-width: 304px;
       margin: 104px auto 84px auto;
       font-family: 'Montserrat', sans-serif;
+      .contact__item{
+        display: block;
+        position: relative;
+        width: 100%;
+        span{
+          position: absolute;
+          top: 10px;
+          color: red;
+          display: block;
+          right: 10px;
+        }
+      }
+
+      button{
+        width: 228px;
+        margin: 10px auto;
+        border: none;
+        display: block;
+        height: 39px;
+        background-color: #ffc80a;
+        background-image: linear-gradient(-11deg, #f94200 0%, #f94200 2%, #f94200 100%);
+        color: #ffffff;
+        font-size: 15px;
+        letter-spacing: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
       input{
         width: 100%;
         border: 1px solid #b7b7b7;
@@ -87,20 +114,41 @@
         min-height: 95px;
         border: 1px solid #b7b7b7;
       }
-      button{
-        width: 228px;
-        margin: 10px auto;
-        border: none;
+      .error-box {
+        position: absolute;
+        top: 5px;
+        color: red;
+        right: 0;
+        height: 30px;
+        width: 30px;
         display: block;
-        height: 39px;
-        background-color: #ffc80a;
-        background-image: linear-gradient(-11deg, #f94200 0%, #f94200 2%, #f94200 100%);
-        color: #ffffff;
-        font-size: 15px;
-        letter-spacing: normal;
+        font-size: 25px;
         font-weight: 700;
-        text-transform: uppercase;
+        &:before {
+          display: none;
+        }
+        &:after {
+          display: none;
+        }
+      }
+      .correctly {
+        background: url(../img/icons/correctly.png) center center no-repeat;
+      }
+      .contacts__item {
+        display: block;
+        position: relative;
+        .contacts form .error-box {
+          position: absolute;
+          top: 0;
+          color: red;
+          right: 0;
+          height: 15px;
+          width: 15px;
+          display: block;
+        }
       }
     }
+
   }
+
 }

@@ -52,6 +52,9 @@
 
        </div>
     </div>
+    <a href="#menu" class="menu-link">
+        <span class=""></span>
+    </a>
     <div class="header__menu">
         <ul>
             <li><a href="#">Featured</a></li>
@@ -420,12 +423,21 @@
         </div>
     </div>
     <div class="footer__right">
-        <form action="#">
-            <input type="text" name="name" placeholder="Your name">
-            <input type="text" name="name" placeholder="Your phone number">
-            <input type="text" name="name" placeholder="Your E-mail">
-            <textarea name="message" placeholder="Your message"></textarea>
-            <button>submit application</button>
+        <form action="" id="contactForm">
+            <div class="contacts__item">
+                <input type="text" placeholder="Your name" id="Name" autocomplete="off" class="error">
+                <span class="error-box">*</span>
+            </div>
+            <div class="contacts__item">
+                <input type="text" placeholder="Your phone number" id="Phone" autocomplete="off" class="error">
+                <span class="error-box">*</span>
+            </div>
+            <div class="contacts__item">
+                <input type="text" placeholder="Your E-mail" id="Email" autocomplete="off" class="error">
+                <span class="error-box">*</span>
+            </div>
+            <textarea placeholder="Your message" id="Message" autocomplete="off"></textarea>
+            <button type="submit">submit application</button>
         </form>
     </div>
 </footer>

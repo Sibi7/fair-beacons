@@ -6,6 +6,12 @@
   .news__wrapper__item{
     min-width: 40%;
   }
+  .header__menu{
+    ul{
+      display: none;
+    }
+
+  }
 }
 
 @media only screen and (max-width: 770px) {
